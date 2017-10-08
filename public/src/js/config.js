@@ -60,10 +60,11 @@ angular.module('insight')
     amMoment.changeLocale(defaultLanguage);
     $rootScope.$on('$routeChangeStart', function() {
       ngProgress.start();
+      ngProgress.set(100); // just a bar, no progress
     });
 
     $rootScope.$on('$routeChangeSuccess', function() {
-      ngProgress.complete();
+      // ngProgress.complete();  // fades out the bar, which we don't want
 
       //Change page title, based on Route information
       $rootScope.titleDetail = '';
