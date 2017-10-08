@@ -24,7 +24,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 
 /* Styling for the ngProgress itself */
 #ngProgress {
-  background-color: #6C9032 !important;
+  background-color: #b31e00 !important;
   box-shadow: none !important;
   color: #373D42 !important;
   height: 3px !important;
@@ -115,13 +115,13 @@ margin-left: 0;
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {background-color: #373D42;}
 
 .navbar-default {
-  background-color: #8DC429;
+  background-color: #fff;
   margin: 0;
   border: 0;
 }
 
 .navbar-default .navbar-nav>li>a {
-  color: #F4FBE8;
+  color: #CC2200;
   font-family: 'Ubuntu', sans-serif;
   padding-left: 20px;
   padding-right: 20px;
@@ -166,7 +166,7 @@ margin-left: 0;
 }
 
 .navbar-form .form-control {
-  background-color: #7CAD23;
+  background-color: #ff9580;
   border-radius: 3px;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
@@ -201,14 +201,14 @@ margin-left: 0;
 #search { color: #fff; }
 
 #search::-webkit-input-placeholder {
-  color: #BCDF7E;
+  color: #FFF;
   font-family: 'Ubuntu', sans-serif;
   font-style: italic;
   font-weight: 100;
 }
 
 #search::-moz-placeholder {
-  color: #BCDF7E;
+  color: #FFF;
   font-family: 'Ubuntu', sans-serif;
   font-weight: 100;
 }
